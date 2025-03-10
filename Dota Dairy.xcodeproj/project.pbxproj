@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7ACC5FD2B9E25D9008F4DFD /* AboutMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC5FC2B9E25D9008F4DFD /* AboutMatch.swift */; };
+		B7ACC5FF2B9E260B008F4DFD /* CustomTextFieldAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC5FE2B9E260B008F4DFD /* CustomTextFieldAbout.swift */; };
+		B7ACC6012B9E32DD008F4DFD /* Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC6002B9E32DD008F4DFD /* Additional.swift */; };
+		B7ACC6032B9E337E008F4DFD /* AdditionalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC6022B9E337E008F4DFD /* AdditionalInfo.swift */; };
+		B7ACC6062B9E40B1008F4DFD /* TournamentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC6052B9E40B1008F4DFD /* TournamentCell.swift */; };
+		B7ACC6082B9E477C008F4DFD /* AddTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC6072B9E477C008F4DFD /* AddTournament.swift */; };
+		B7ACC60A2B9E4E78008F4DFD /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC6092B9E4E78008F4DFD /* CustomDatePicker.swift */; };
+		B7ACC60C2B9EDB6F008F4DFD /* AboutTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC60B2B9EDB6F008F4DFD /* AboutTournament.swift */; };
+		B7ACC60E2B9EDF3D008F4DFD /* CustomDatePickerAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC60D2B9EDF3D008F4DFD /* CustomDatePickerAbout.swift */; };
+		B7ACC6102B9EE254008F4DFD /* TextFieldAboutToDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC60F2B9EE254008F4DFD /* TextFieldAboutToDescription.swift */; };
+		B7ACC6162B9F181E008F4DFD /* HeroesPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC6152B9F181E008F4DFD /* HeroesPicker.swift */; };
+		B7ACC6182B9F262A008F4DFD /* StatisticsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACC6172B9F262A008F4DFD /* StatisticsCard.swift */; };
+		B7B34CD02B9CE8FC00CDE2BE /* StatisticBaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CCF2B9CE8FC00CDE2BE /* StatisticBaner.swift */; };
+		B7B34CD32B9CE9DE00CDE2BE /* MatchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CD22B9CE9DE00CDE2BE /* MatchesCell.swift */; };
+		B7B34CD52B9CEB7800CDE2BE /* MatchWinLose.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CD42B9CEB7800CDE2BE /* MatchWinLose.swift */; };
+		B7B34CD72B9CF34700CDE2BE /* TypeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CD62B9CF34700CDE2BE /* TypeGame.swift */; };
+		B7B34CD92B9CF7BA00CDE2BE /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CD82B9CF7BA00CDE2BE /* EmptyView.swift */; };
+		B7B34CDB2B9CFA0E00CDE2BE /* GamerPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CDA2B9CFA0E00CDE2BE /* GamerPosition.swift */; };
+		B7B34CDD2B9CFEBA00CDE2BE /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CDC2B9CFEBA00CDE2BE /* CustomTextField.swift */; };
+		B7B34CDF2B9CFF5100CDE2BE /* AddMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CDE2B9CFF5100CDE2BE /* AddMatch.swift */; };
+		B7B34CE12B9D0F2F00CDE2BE /* GameTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CE02B9D0F2F00CDE2BE /* GameTypePicker.swift */; };
+		B7B34CE32B9D16E800CDE2BE /* PositionTypePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B34CE22B9D16E800CDE2BE /* PositionTypePicker.swift */; };
+		B7B87FDE2B99895100F93B20 /* Dota_DairyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FDD2B99895100F93B20 /* Dota_DairyApp.swift */; };
+		B7B87FE22B99895300F93B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B87FE12B99895300F93B20 /* Assets.xcassets */; };
+		B7B87FE52B99895300F93B20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B87FE42B99895300F93B20 /* Preview Assets.xcassets */; };
+		B7B87FEA2B99895300F93B20 /* Dota_Dairy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FE82B99895300F93B20 /* Dota_Dairy.xcdatamodeld */; };
+		B7B87FF32B99B87900F93B20 /* CellButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FF22B99B87900F93B20 /* CellButtonView.swift */; };
+		B7B87FF62B99B8E800F93B20 /* WView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FF52B99B8E800F93B20 /* WView.swift */; };
+		B7B87FF92B99B93400F93B20 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FF82B99B93400F93B20 /* Combine.swift */; };
+		B7B87FFC2B99B97600F93B20 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FFB2B99B97600F93B20 /* CoreDataManager.swift */; };
+		B7B87FFF2B99BAB100F93B20 /* CornerRadiusWithBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B87FFE2B99BAB100F93B20 /* CornerRadiusWithBorder.swift */; };
+		B7B880012B99BB8300F93B20 /* BackgroundTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880002B99BB8300F93B20 /* BackgroundTextEditor.swift */; };
+		B7B880042B99D72F00F93B20 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880032B99D72F00F93B20 /* ProgressBar.swift */; };
+		B7B880062B99D80E00F93B20 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880052B99D80E00F93B20 /* OnboardingModel.swift */; };
+		B7B880112B99E6E300F93B20 /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880102B99E6E300F93B20 /* SettingsVM.swift */; };
+		B7B880132B99E6EF00F93B20 /* SettingsV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880122B99E6EF00F93B20 /* SettingsV.swift */; };
+		B7B880152B99E6FD00F93B20 /* StatisticsV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880142B99E6FD00F93B20 /* StatisticsV.swift */; };
+		B7B880172B99E70D00F93B20 /* StatisticsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880162B99E70D00F93B20 /* StatisticsVM.swift */; };
+		B7B880192B99E71A00F93B20 /* TournamentsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880182B99E71A00F93B20 /* TournamentsVM.swift */; };
+		B7B8801B2B99E72200F93B20 /* TournamentsV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8801A2B99E72200F93B20 /* TournamentsV.swift */; };
+		B7B8801F2B99E73F00F93B20 /* MatchesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8801E2B99E73F00F93B20 /* MatchesVM.swift */; };
+		B7B880212B99E74600F93B20 /* MatchesV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880202B99E74600F93B20 /* MatchesV.swift */; };
+		B7B880232B99E75000F93B20 /* TabsV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880222B99E74F00F93B20 /* TabsV.swift */; };
+		B7B880272B99E77100F93B20 /* OnboardingV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880262B99E77100F93B20 /* OnboardingV.swift */; };
+		B7B880292B99E77900F93B20 /* OnboardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880282B99E77900F93B20 /* OnboardingVM.swift */; };
+		B7B8802B2B99E78800F93B20 /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8802A2B99E78800F93B20 /* SplashVM.swift */; };
+		B7B8802D2B99E79000F93B20 /* SplashV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8802C2B99E79000F93B20 /* SplashV.swift */; };
+		B7B8802F2B99E80100F93B20 /* RootVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B8802E2B99E80100F93B20 /* RootVM.swift */; };
+		B7B880322B99EED300F93B20 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880312B99EED300F93B20 /* OnboardingCell.swift */; };
+		B7B880352B99EF2600F93B20 /* OnboardingImageDots.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880342B99EF2600F93B20 /* OnboardingImageDots.swift */; };
+		B7B880372B99EFAD00F93B20 /* ButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B880362B99EFAD00F93B20 /* ButtonRounded.swift */; };
+		B7BF209E2BA015AC009FD896 /* RoundDiagramm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF209D2BA015AC009FD896 /* RoundDiagramm.swift */; };
+		B7BF20A02BA0374F009FD896 /* EntityName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF209F2BA0374F009FD896 /* EntityName.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7ACC5FC2B9E25D9008F4DFD /* AboutMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMatch.swift; sourceTree = "<group>"; };
+		B7ACC5FE2B9E260B008F4DFD /* CustomTextFieldAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldAbout.swift; sourceTree = "<group>"; };
+		B7ACC6002B9E32DD008F4DFD /* Additional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additional.swift; sourceTree = "<group>"; };
+		B7ACC6022B9E337E008F4DFD /* AdditionalInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalInfo.swift; sourceTree = "<group>"; };
+		B7ACC6052B9E40B1008F4DFD /* TournamentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentCell.swift; sourceTree = "<group>"; };
+		B7ACC6072B9E477C008F4DFD /* AddTournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTournament.swift; sourceTree = "<group>"; };
+		B7ACC6092B9E4E78008F4DFD /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		B7ACC60B2B9EDB6F008F4DFD /* AboutTournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTournament.swift; sourceTree = "<group>"; };
+		B7ACC60D2B9EDF3D008F4DFD /* CustomDatePickerAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePickerAbout.swift; sourceTree = "<group>"; };
+		B7ACC60F2B9EE254008F4DFD /* TextFieldAboutToDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAboutToDescription.swift; sourceTree = "<group>"; };
+		B7ACC6152B9F181E008F4DFD /* HeroesPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesPicker.swift; sourceTree = "<group>"; };
+		B7ACC6172B9F262A008F4DFD /* StatisticsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsCard.swift; sourceTree = "<group>"; };
+		B7B34CCF2B9CE8FC00CDE2BE /* StatisticBaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticBaner.swift; sourceTree = "<group>"; };
+		B7B34CD22B9CE9DE00CDE2BE /* MatchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesCell.swift; sourceTree = "<group>"; };
+		B7B34CD42B9CEB7800CDE2BE /* MatchWinLose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchWinLose.swift; sourceTree = "<group>"; };
+		B7B34CD62B9CF34700CDE2BE /* TypeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeGame.swift; sourceTree = "<group>"; };
+		B7B34CD82B9CF7BA00CDE2BE /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		B7B34CDA2B9CFA0E00CDE2BE /* GamerPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamerPosition.swift; sourceTree = "<group>"; };
+		B7B34CDC2B9CFEBA00CDE2BE /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B7B34CDE2B9CFF5100CDE2BE /* AddMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatch.swift; sourceTree = "<group>"; };
+		B7B34CE02B9D0F2F00CDE2BE /* GameTypePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTypePicker.swift; sourceTree = "<group>"; };
+		B7B34CE22B9D16E800CDE2BE /* PositionTypePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionTypePicker.swift; sourceTree = "<group>"; };
+		B7B87FDA2B99895100F93B20 /* Dota Dairy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dota Dairy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B87FDD2B99895100F93B20 /* Dota_DairyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dota_DairyApp.swift; sourceTree = "<group>"; };
+		B7B87FE12B99895300F93B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B87FE42B99895300F93B20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7B87FE92B99895300F93B20 /* Dota_Dairy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dota_Dairy.xcdatamodel; sourceTree = "<group>"; };
+		B7B87FF22B99B87900F93B20 /* CellButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellButtonView.swift; sourceTree = "<group>"; };
+		B7B87FF52B99B8E800F93B20 /* WView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WView.swift; sourceTree = "<group>"; };
+		B7B87FF82B99B93400F93B20 /* Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.swift; sourceTree = "<group>"; };
+		B7B87FFB2B99B97600F93B20 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B7B87FFE2B99BAB100F93B20 /* CornerRadiusWithBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusWithBorder.swift; sourceTree = "<group>"; };
+		B7B880002B99BB8300F93B20 /* BackgroundTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTextEditor.swift; sourceTree = "<group>"; };
+		B7B880032B99D72F00F93B20 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		B7B880052B99D80E00F93B20 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		B7B880102B99E6E300F93B20 /* SettingsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVM.swift; sourceTree = "<group>"; };
+		B7B880122B99E6EF00F93B20 /* SettingsV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsV.swift; sourceTree = "<group>"; };
+		B7B880142B99E6FD00F93B20 /* StatisticsV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsV.swift; sourceTree = "<group>"; };
+		B7B880162B99E70D00F93B20 /* StatisticsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsVM.swift; sourceTree = "<group>"; };
+		B7B880182B99E71A00F93B20 /* TournamentsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsVM.swift; sourceTree = "<group>"; };
+		B7B8801A2B99E72200F93B20 /* TournamentsV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsV.swift; sourceTree = "<group>"; };
+		B7B8801E2B99E73F00F93B20 /* MatchesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesVM.swift; sourceTree = "<group>"; };
+		B7B880202B99E74600F93B20 /* MatchesV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesV.swift; sourceTree = "<group>"; };
+		B7B880222B99E74F00F93B20 /* TabsV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsV.swift; sourceTree = "<group>"; };
+		B7B880262B99E77100F93B20 /* OnboardingV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingV.swift; sourceTree = "<group>"; };
+		B7B880282B99E77900F93B20 /* OnboardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVM.swift; sourceTree = "<group>"; };
+		B7B8802A2B99E78800F93B20 /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
+		B7B8802C2B99E79000F93B20 /* SplashV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashV.swift; sourceTree = "<group>"; };
+		B7B8802E2B99E80100F93B20 /* RootVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVM.swift; sourceTree = "<group>"; };
+		B7B880312B99EED300F93B20 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		B7B880342B99EF2600F93B20 /* OnboardingImageDots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingImageDots.swift; sourceTree = "<group>"; };
+		B7B880362B99EFAD00F93B20 /* ButtonRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRounded.swift; sourceTree = "<group>"; };
+		B7BF209D2BA015AC009FD896 /* RoundDiagramm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundDiagramm.swift; sourceTree = "<group>"; };
+		B7BF209F2BA0374F009FD896 /* EntityName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityName.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B87FD72B99895100F93B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7ACC6042B9E40A7008F4DFD /* in */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACC6052B9E40B1008F4DFD /* TournamentCell.swift */,
+				B7ACC6072B9E477C008F4DFD /* AddTournament.swift */,
+				B7ACC60B2B9EDB6F008F4DFD /* AboutTournament.swift */,
+				B7ACC60F2B9EE254008F4DFD /* TextFieldAboutToDescription.swift */,
+			);
+			path = in;
+			sourceTree = "<group>";
+		};
+		B7ACC6112B9EF1DB008F4DFD /* In */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACC6152B9F181E008F4DFD /* HeroesPicker.swift */,
+				B7BF209D2BA015AC009FD896 /* RoundDiagramm.swift */,
+			);
+			path = In;
+			sourceTree = "<group>";
+		};
+		B7B34CD12B9CE9C900CDE2BE /* In */ = {
+			isa = PBXGroup;
+			children = (
+				B7B34CD22B9CE9DE00CDE2BE /* MatchesCell.swift */,
+				B7B34CDE2B9CFF5100CDE2BE /* AddMatch.swift */,
+				B7ACC5FC2B9E25D9008F4DFD /* AboutMatch.swift */,
+			);
+			path = In;
+			sourceTree = "<group>";
+		};
+		B7B87FD12B99895000F93B20 = {
+			isa = PBXGroup;
+			children = (
+				B7B87FDC2B99895100F93B20 /* Dota Dairy */,
+				B7B87FDB2B99895100F93B20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B87FDB2B99895100F93B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FDA2B99895100F93B20 /* Dota Dairy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B87FDC2B99895100F93B20 /* Dota Dairy */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FF02B99B83000F93B20 /* Services */,
+				B7B87FFD2B99BA9600F93B20 /* Extensions */,
+				B7B880092B99E62D00F93B20 /* Pages */,
+				B7B880022B99D72000F93B20 /* Models */,
+				B7B880332B99EF0600F93B20 /* UI */,
+				B7B87FDD2B99895100F93B20 /* Dota_DairyApp.swift */,
+				B7B8802E2B99E80100F93B20 /* RootVM.swift */,
+				B7B87FE12B99895300F93B20 /* Assets.xcassets */,
+				B7B87FE82B99895300F93B20 /* Dota_Dairy.xcdatamodeld */,
+				B7B87FE32B99895300F93B20 /* Preview Content */,
+			);
+			path = "Dota Dairy";
+			sourceTree = "<group>";
+		};
+		B7B87FE32B99895300F93B20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FE42B99895300F93B20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7B87FF02B99B83000F93B20 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FFA2B99B95E00F93B20 /* Database */,
+				B7B87FF72B99B92700F93B20 /* Combine */,
+				B7B87FF42B99B8D200F93B20 /* WebView */,
+				B7B87FF12B99B84000F93B20 /* SwipeCell */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B7B87FF12B99B84000F93B20 /* SwipeCell */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FF22B99B87900F93B20 /* CellButtonView.swift */,
+			);
+			path = SwipeCell;
+			sourceTree = "<group>";
+		};
+		B7B87FF42B99B8D200F93B20 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FF52B99B8E800F93B20 /* WView.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		B7B87FF72B99B92700F93B20 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FF82B99B93400F93B20 /* Combine.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		B7B87FFA2B99B95E00F93B20 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FFB2B99B97600F93B20 /* CoreDataManager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		B7B87FFD2B99BA9600F93B20 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7B87FFE2B99BAB100F93B20 /* CornerRadiusWithBorder.swift */,
+				B7B880002B99BB8300F93B20 /* BackgroundTextEditor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B7B880022B99D72000F93B20 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7B880032B99D72F00F93B20 /* ProgressBar.swift */,
+				B7B880052B99D80E00F93B20 /* OnboardingModel.swift */,
+				B7B34CD62B9CF34700CDE2BE /* TypeGame.swift */,
+				B7B34CDA2B9CFA0E00CDE2BE /* GamerPosition.swift */,
+				B7ACC6002B9E32DD008F4DFD /* Additional.swift */,
+				B7BF209F2BA0374F009FD896 /* EntityName.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7B880092B99E62D00F93B20 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8800F2B99E6CD00F93B20 /* Settings */,
+				B7B8800E2B99E6BD00F93B20 /* Statistics */,
+				B7B8800D2B99E6AD00F93B20 /* Tournaments */,
+				B7B8800C2B99E6A400F93B20 /* Matches */,
+				B7B8800A2B99E65800F93B20 /* Tabs */,
+				B7B880252B99E76000F93B20 /* Onboarding */,
+				B7B880242B99E75900F93B20 /* Splash */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		B7B8800A2B99E65800F93B20 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B7B880222B99E74F00F93B20 /* TabsV.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		B7B8800C2B99E6A400F93B20 /* Matches */ = {
+			isa = PBXGroup;
+			children = (
+				B7B34CD12B9CE9C900CDE2BE /* In */,
+				B7B8801E2B99E73F00F93B20 /* MatchesVM.swift */,
+				B7B880202B99E74600F93B20 /* MatchesV.swift */,
+			);
+			path = Matches;
+			sourceTree = "<group>";
+		};
+		B7B8800D2B99E6AD00F93B20 /* Tournaments */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACC6042B9E40A7008F4DFD /* in */,
+				B7B880182B99E71A00F93B20 /* TournamentsVM.swift */,
+				B7B8801A2B99E72200F93B20 /* TournamentsV.swift */,
+			);
+			path = Tournaments;
+			sourceTree = "<group>";
+		};
+		B7B8800E2B99E6BD00F93B20 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACC6112B9EF1DB008F4DFD /* In */,
+				B7B880142B99E6FD00F93B20 /* StatisticsV.swift */,
+				B7B880162B99E70D00F93B20 /* StatisticsVM.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		B7B8800F2B99E6CD00F93B20 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B7B880102B99E6E300F93B20 /* SettingsVM.swift */,
+				B7B880122B99E6EF00F93B20 /* SettingsV.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B7B880242B99E75900F93B20 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B7B8802A2B99E78800F93B20 /* SplashVM.swift */,
+				B7B8802C2B99E79000F93B20 /* SplashV.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B7B880252B99E76000F93B20 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B7B880302B99EEC100F93B20 /* Items */,
+				B7B880262B99E77100F93B20 /* OnboardingV.swift */,
+				B7B880282B99E77900F93B20 /* OnboardingVM.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B7B880302B99EEC100F93B20 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				B7B880312B99EED300F93B20 /* OnboardingCell.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		B7B880332B99EF0600F93B20 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B7B880342B99EF2600F93B20 /* OnboardingImageDots.swift */,
+				B7B880362B99EFAD00F93B20 /* ButtonRounded.swift */,
+				B7B34CCF2B9CE8FC00CDE2BE /* StatisticBaner.swift */,
+				B7B34CD42B9CEB7800CDE2BE /* MatchWinLose.swift */,
+				B7B34CD82B9CF7BA00CDE2BE /* EmptyView.swift */,
+				B7B34CDC2B9CFEBA00CDE2BE /* CustomTextField.swift */,
+				B7ACC5FE2B9E260B008F4DFD /* CustomTextFieldAbout.swift */,
+				B7B34CE02B9D0F2F00CDE2BE /* GameTypePicker.swift */,
+				B7B34CE22B9D16E800CDE2BE /* PositionTypePicker.swift */,
+				B7ACC6022B9E337E008F4DFD /* AdditionalInfo.swift */,
+				B7ACC6092B9E4E78008F4DFD /* CustomDatePicker.swift */,
+				B7ACC60D2B9EDF3D008F4DFD /* CustomDatePickerAbout.swift */,
+				B7ACC6172B9F262A008F4DFD /* StatisticsCard.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B87FD92B99895100F93B20 /* Dota Dairy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B87FED2B99895300F93B20 /* Build configuration list for PBXNativeTarget "Dota Dairy" */;
+			buildPhases = (
+				B7B87FD62B99895100F93B20 /* Sources */,
+				B7B87FD72B99895100F93B20 /* Frameworks */,
+				B7B87FD82B99895100F93B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dota Dairy";
+			productName = "Dota Dairy";
+			productReference = B7B87FDA2B99895100F93B20 /* Dota Dairy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B87FD22B99895000F93B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B7B87FD92B99895100F93B20 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B7B87FD52B99895000F93B20 /* Build configuration list for PBXProject "Dota Dairy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B87FD12B99895000F93B20;
+			productRefGroup = B7B87FDB2B99895100F93B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B87FD92B99895100F93B20 /* Dota Dairy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B87FD82B99895100F93B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B87FE52B99895300F93B20 /* Preview Assets.xcassets in Resources */,
+				B7B87FE22B99895300F93B20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B87FD62B99895100F93B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B880042B99D72F00F93B20 /* ProgressBar.swift in Sources */,
+				B7ACC5FD2B9E25D9008F4DFD /* AboutMatch.swift in Sources */,
+				B7B87FFF2B99BAB100F93B20 /* CornerRadiusWithBorder.swift in Sources */,
+				B7B880292B99E77900F93B20 /* OnboardingVM.swift in Sources */,
+				B7ACC6012B9E32DD008F4DFD /* Additional.swift in Sources */,
+				B7B87FF62B99B8E800F93B20 /* WView.swift in Sources */,
+				B7B8802F2B99E80100F93B20 /* RootVM.swift in Sources */,
+				B7ACC60A2B9E4E78008F4DFD /* CustomDatePicker.swift in Sources */,
+				B7ACC6182B9F262A008F4DFD /* StatisticsCard.swift in Sources */,
+				B7B34CD72B9CF34700CDE2BE /* TypeGame.swift in Sources */,
+				B7B880352B99EF2600F93B20 /* OnboardingImageDots.swift in Sources */,
+				B7B8802B2B99E78800F93B20 /* SplashVM.swift in Sources */,
+				B7ACC6062B9E40B1008F4DFD /* TournamentCell.swift in Sources */,
+				B7B34CE32B9D16E800CDE2BE /* PositionTypePicker.swift in Sources */,
+				B7ACC60C2B9EDB6F008F4DFD /* AboutTournament.swift in Sources */,
+				B7B87FF32B99B87900F93B20 /* CellButtonView.swift in Sources */,
+				B7B880272B99E77100F93B20 /* OnboardingV.swift in Sources */,
+				B7BF20A02BA0374F009FD896 /* EntityName.swift in Sources */,
+				B7B880322B99EED300F93B20 /* OnboardingCell.swift in Sources */,
+				B7ACC6162B9F181E008F4DFD /* HeroesPicker.swift in Sources */,
+				B7B87FDE2B99895100F93B20 /* Dota_DairyApp.swift in Sources */,
+				B7B87FEA2B99895300F93B20 /* Dota_Dairy.xcdatamodeld in Sources */,
+				B7B34CD92B9CF7BA00CDE2BE /* EmptyView.swift in Sources */,
+				B7ACC60E2B9EDF3D008F4DFD /* CustomDatePickerAbout.swift in Sources */,
+				B7B34CDD2B9CFEBA00CDE2BE /* CustomTextField.swift in Sources */,
+				B7B880172B99E70D00F93B20 /* StatisticsVM.swift in Sources */,
+				B7B34CD02B9CE8FC00CDE2BE /* StatisticBaner.swift in Sources */,
+				B7ACC5FF2B9E260B008F4DFD /* CustomTextFieldAbout.swift in Sources */,
+				B7B880132B99E6EF00F93B20 /* SettingsV.swift in Sources */,
+				B7B34CDB2B9CFA0E00CDE2BE /* GamerPosition.swift in Sources */,
+				B7B880232B99E75000F93B20 /* TabsV.swift in Sources */,
+				B7BF209E2BA015AC009FD896 /* RoundDiagramm.swift in Sources */,
+				B7B8801F2B99E73F00F93B20 /* MatchesVM.swift in Sources */,
+				B7B34CD32B9CE9DE00CDE2BE /* MatchesCell.swift in Sources */,
+				B7B880062B99D80E00F93B20 /* OnboardingModel.swift in Sources */,
+				B7B34CDF2B9CFF5100CDE2BE /* AddMatch.swift in Sources */,
+				B7B880192B99E71A00F93B20 /* TournamentsVM.swift in Sources */,
+				B7B87FFC2B99B97600F93B20 /* CoreDataManager.swift in Sources */,
+				B7B34CE12B9D0F2F00CDE2BE /* GameTypePicker.swift in Sources */,
+				B7ACC6032B9E337E008F4DFD /* AdditionalInfo.swift in Sources */,
+				B7B87FF92B99B93400F93B20 /* Combine.swift in Sources */,
+				B7B8801B2B99E72200F93B20 /* TournamentsV.swift in Sources */,
+				B7B880112B99E6E300F93B20 /* SettingsVM.swift in Sources */,
+				B7B880152B99E6FD00F93B20 /* StatisticsV.swift in Sources */,
+				B7B880372B99EFAD00F93B20 /* ButtonRounded.swift in Sources */,
+				B7ACC6102B9EE254008F4DFD /* TextFieldAboutToDescription.swift in Sources */,
+				B7B8802D2B99E79000F93B20 /* SplashV.swift in Sources */,
+				B7B34CD52B9CEB7800CDE2BE /* MatchWinLose.swift in Sources */,
+				B7B880012B99BB8300F93B20 /* BackgroundTextEditor.swift in Sources */,
+				B7B880212B99E74600F93B20 /* MatchesV.swift in Sources */,
+				B7ACC6082B9E477C008F4DFD /* AddTournament.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7B87FEB2B99895300F93B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7B87FEC2B99895300F93B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B87FEE2B99895300F93B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dota Dairy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Dota-Dairy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B87FEF2B99895300F93B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dota Dairy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DF.Dota-Dairy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B87FD52B99895000F93B20 /* Build configuration list for PBXProject "Dota Dairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B87FEB2B99895300F93B20 /* Debug */,
+				B7B87FEC2B99895300F93B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B87FED2B99895300F93B20 /* Build configuration list for PBXNativeTarget "Dota Dairy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B87FEE2B99895300F93B20 /* Debug */,
+				B7B87FEF2B99895300F93B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B7B87FE82B99895300F93B20 /* Dota_Dairy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B7B87FE92B99895300F93B20 /* Dota_Dairy.xcdatamodel */,
+			);
+			currentVersion = B7B87FE92B99895300F93B20 /* Dota_Dairy.xcdatamodel */;
+			path = Dota_Dairy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B7B87FD22B99895000F93B20 /* Project object */;
+}

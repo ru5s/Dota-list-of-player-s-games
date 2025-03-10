@@ -1,0 +1,16 @@
+{
+  "images" : [
+    {
+      "filename" : "background.png",
+      "idiom" : "iphone"
+    },
+    {
+      "filename" : "background wide.png",
+      "idiom" : "ipad"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

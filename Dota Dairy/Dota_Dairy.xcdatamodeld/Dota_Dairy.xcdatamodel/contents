@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Match" representedClassName="Match" syncable="YES" codeGenerationType="class">
+        <attribute name="addDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gameDate" optional="YES" attributeType="String"/>
+        <attribute name="gameDuration" optional="YES" attributeType="String"/>
+        <attribute name="gameName" optional="YES" attributeType="String"/>
+        <attribute name="gameTime" optional="YES" attributeType="String"/>
+        <attribute name="gameType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="notes" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="[String]"/>
+        <attribute name="playedHero" optional="YES" attributeType="String"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="winOrLose" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="yourKDA" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Statistics" representedClassName="Statistics" syncable="YES" codeGenerationType="class">
+        <attribute name="defeats" optional="YES" attributeType="String"/>
+        <attribute name="victories" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Tournament" representedClassName="Tournament" syncable="YES" codeGenerationType="class">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="prizePool" optional="YES" attributeType="String"/>
+        <attribute name="tournamentDescription" optional="YES" attributeType="String"/>
+        <attribute name="tournamentName" optional="YES" attributeType="String"/>
+        <attribute name="tournamentNotes" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromDataTransformer" customClassName="[String]"/>
+    </entity>
+</model>
